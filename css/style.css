@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 
-.back-design {
+.background-design {
     position: absolute;
     left: 50vw;
   top: -50vw;
@@ -28,6 +28,18 @@ body {
   height: 100vw;
     border-radius: 20px;
     transform: rotate(45deg); 
+}
+
+.background-design2 {
+    position: absolute;
+    right: 30vw;
+    top: 17vw;
+    background: white;
+    z-index: -10000;
+    width: 57vw;
+  height: 84vw;
+    border-radius: 50px;
+    transform: rotate(56deg); 
 }
 
 header {
@@ -69,7 +81,7 @@ section {
     display: block;
     text-align: center;
     width: 55%;
-    margin: 50px 25% 350px 25%;
+    margin: 0px 25% 500px 25%;
 
 }
 
