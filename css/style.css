@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-Weight: 400, 600, 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-weight: 400, 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    background-color: hsl(214, 64%, 98%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+
+header nav button {
+    box-shadow: 2px 2px grey;
+    width: 150px;
+    padding: 10px;
+
+}
+
+section {
+
+    padding: 0px 50px;
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+}
+
+.layout {
+    padding: 50px 10%;
+    width: 80%;
+}
+
+.layout img {
+    max-width: 100%;
+}
+
+.first-call-to-action {
+    display: block;
+    text-align: center;
+    width: 55%;
+    margin: 50px 25% 350px 25%;
+
+}
+
+.first-call-to-action h1 {
+    font-weight: bold;
+    margin: 20px;
+
+}
+ 
+.first-call-to-action p {
+    color: rgb(180, 179, 179);
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.first-call-to-action button {
+    width: 180px;
+    padding: 12px;
+    background-color: hsl(322, 100%, 66%);
+    color: rgb(207, 207, 207);
+    border: none;
+}
+
+.two-segment {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-bottom: 100px;
+}
+
+.left-section {
+    width: 50%;
+
+}
+
+.left-section img {
+    max-width: 100%;
+}
+
+.right-section {
+    width: 40%;
+    padding: 0  0;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+
+.paragraph h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.paragraph p {
+    color: rgb(180, 179, 179);
+    margin-bottom: 20px;
+}
+
+.callToAction {
+    background-color: white;
+    width: 50%;
+    margin: 0 25%;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgb(43, 1, 1);
+    margin-bottom: 100px;
+
+}
+
+.callToAction h1 {
+    font-weight: bold;
+    margin: 20px;
+    font-size: 2rem;
+
+}
+ 
+.callToAction p {
+    color: rgb(180, 179, 179);
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.callToAction button {
+    width: 200px;
+    padding: 12px;
+    background-color: hsl(322, 100%, 66%);
+    color: rgb(207, 207, 207);
+    border: none;
+}
+
+footer {
+    padding: 3% 0% 10% 0%;
+    background-color: hsl(192, 100%, 9%);
+    color: whitesmoke;
+    
+}
+
+footer .logo {
+    margin-left: 53px;
+}
+
+.social-icons {
+    font-size: 2rem;
+}
+
+.social-icons span{
+    margin: 20px 20px 20px 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px
+}
+
+
+.foot1 {
+    width: 25%;
+}
+
+.foot2 {
+    width: 15%;
+}
+
+
+
+ul li {
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+.foot3 {
+    width: 25%;
+}
+
+.foot3 h3{
+    margin-bottom: 10px
+}
+
+.foot3 p{
+    margin-bottom: 10px
+}
+
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type = "text"]{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+}
+
+input[type = "button"]{
+width: 50%;
+    padding: 12px;
+    background-color: hsl(322, 100%, 66%);
+    color: rgb(207, 207, 207);
+    border: none;
+    float: right;
+}
+
+
+@media only screen and (max-width: 375px) {
+    * {
+        border: 1px solid transparent
+    }
+
+    main {
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+        width: 100%;
+    }
+
+   .logo img{
+        width: 150px;
+    }
+
+    header nav button{
+        width: 100px;
+        padding: 4px;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    
+.layout {
+    padding: 50px 0%;
+    width: 85%;
+}
+
+.first-call-to-action {
+  
+    width: 90%;
+    margin: 50px 4% 350px 4%;
+
+}
+
+.first-call-to-action p {
+    margin: 0px 0px 20px 0px;
+}
+
+.two-segment {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 0px 20px;
+}
+
+.left-section {
+    width: 100%;
+    margin-bottom: 100px;
+
+
+}
+
+.right-section {
+    width: 100%;
+    margin-bottom: 100px;
+
+
+}
+
+.paragraph h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.paragraph p {
+    color: rgb(180, 179, 179);
+    margin-bottom: 50px;
+}
+
+.callToAction {
+    width: 80%;
+    margin: 0% 10% 20% 10%;
+}
+
+footer {
+    padding-bottom: 0;
+}
+
+
+footer .logo {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.foot1 .social-icons, p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    font-size: 1.3rem;
+}
+
+.social-icons span{
+    margin: 8px 8px 8px 0px;
+}
+
+.foot1 p {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.footer-content {
+    position: relative;
+    display: block;
+    font-size: 16px;
+}
+
+
+.foot1 {
+    padding: 1px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.foot2 {
+    width: 100%;
+}
+
+
+
+ul {
+    padding: 25px;
+}
+
+.foot3 {
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 20px;
+    text-align: center;    
+
+}
+
+input[type = "text"]{
+    border-radius: 0px;
+
+}
+
+input[type = "button"]{
+width: 100%;
+
+}
+
+
+}
