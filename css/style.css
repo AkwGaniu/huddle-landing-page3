@@ -16,6 +16,7 @@ body {
     font-size: 1.125em;
     background-color: hsl(214, 64%, 98%);
     position: relative;
+    overflow-x: hidden;
 }
 
 .background-design {
@@ -32,11 +33,11 @@ body {
 
 .background-design2 {
     position: absolute;
-    right: 30vw;
-    top: 17vw;
+    right: 17vw;
+    top: 14vw;
     background: white;
     z-index: -10000;
-    width: 57vw;
+    width: 65vw;
   height: 84vw;
     border-radius: 50px;
     transform: rotate(56deg); 
@@ -103,6 +104,8 @@ section {
     background-color: hsl(322, 100%, 66%);
     color: rgb(207, 207, 207);
     border: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .two-segment {
@@ -169,6 +172,7 @@ section {
     background-color: hsl(322, 100%, 66%);
     color: rgb(207, 207, 207);
     border: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -248,11 +252,32 @@ width: 50%;
 }
 
 
+
+/* Mobilee view */
+
 @media only screen and (max-width: 375px) {
     * {
-        border: 1px solid transparent
+        border: 1px solid transparent;
+        overflow-x: hidden;
     }
 
+    .background-design {
+        left: 65vw;
+        top: -17vw;
+        width: 133vw;
+        height: 118vw;
+        /* border-radius: 40px; */
+        transform: rotate(63deg); 
+    }
+    
+    .background-design2 {
+        right: -63vw;
+        top: 58vw;
+        z-index: -10000;
+        width: 187vw;
+        height: 148vw;
+        transform: rotate(143deg); 
+    }
     main {
         width: 100%;
     }
@@ -283,7 +308,7 @@ width: 50%;
 .first-call-to-action {
   
     width: 90%;
-    margin: 50px 4% 350px 4%;
+    margin: 50px 4% 200px 4%;
 
 }
 
@@ -332,6 +357,7 @@ footer {
 
 footer .logo {
     margin-left: 0px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -377,12 +403,14 @@ footer .logo {
 
 
 ul {
-    padding: 25px;
+    padding: 0px 25px;
 }
 
 .foot3 {
     width: 100%;
     margin-bottom: 200px;
+
+    margin-top: 40px;
     padding: 20px;
     text-align: center;    
 
